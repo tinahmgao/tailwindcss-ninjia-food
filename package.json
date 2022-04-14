@@ -4,12 +4,12 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
+        "tailwind": "tailwindcss -i src/styles.css -o public/styles.css --watch"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "dependencies": {
+    "devDependencies": {
         "tailwindcss": "^3.0.24"
     }
 }
